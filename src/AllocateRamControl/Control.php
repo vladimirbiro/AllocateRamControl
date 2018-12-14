@@ -6,12 +6,13 @@ use Tracy\Debugger;
 
 class Control
 {
-	private $switch = 0;
+	private $switch = false;
 	private $minRam = false;
+
 
 	public function log($caption = '', $minRam = false)
 	{
-		if ($this->switch == 0) {
+		if ($this->switch === false) {
 			return;
 		}
 		$size = memory_get_usage();
