@@ -1,10 +1,10 @@
 <?php
-namespace VB\AllocateRamControl;
+namespace VB\AllocateRam;
 
 use Nette\Utils\Strings;
 use Tracy\Debugger;
 
-class MyControl
+class Control
 {
 	private $switch = 0;
 	private $minRam = false;
