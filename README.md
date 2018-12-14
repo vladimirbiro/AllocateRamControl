@@ -1,4 +1,5 @@
 **Install:**
+
 composer require vladimirbiro/allocate-ram-control
 
 
