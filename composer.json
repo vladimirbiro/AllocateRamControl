@@ -1,0 +1,16 @@
+{
+    "name": "vladimirbiro/allocate-ram-control",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Vladimir Biro",
+            "email": "vladimir.biro@gmail.com"
+        }
+    ],
+    "require": {
+        "nette/utils": "^2.5",
+        "tracy/tracy": "^2.5"
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
